@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Countdown - Timer</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="countdown">
+        <h1>Countdown - Timer</h1>
+        <div class="set_time">
+        <label for="set-time">Set Time(hours:minutes) :
+        </label>
+        <input type="time" id="set-time" placeholder="00:00:00" />
+        <button id="setime" onclick="setTimer()">Set Time</button>
+        </div>
+      </div>
+      <div class="time_wrapper">
+        <div class="time_entity">00</div>
+        <small class="time_type">Hours</small>
+      <span class="colon">:</span>
+        <div class="time_entity">00</div>
+        <small class="time_type">Minutes</small>
+      <span class="colon">:</span>
+        <div class="time_entity">00</div>
+        <small class="time_type">Seconds</small>
+      </div>
+      </div>
+      <div class="button_wrappers">
+        <div id="buttons">
+          <button onclick="startTimer()">Start</button>
+          <button onclick="stopTimer()">Stop</button>
+          <button id="reset" onclick="resetTimer()">Reset</button>
+        </div>
+      </div>
+    </div>
+    <script src="count.js"></script>
+  </body>
+</html>

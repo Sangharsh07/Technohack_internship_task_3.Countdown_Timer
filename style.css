@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #2C1338;
+    color: #FCE5D8;
+    box-sizing: border-box;
+    font-family: 'Inter',sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+.container{
+    margin-top: 150px;
+}
+.countdown h1{
+
+    font-size: 50px
+}
+.time_wrapper{
+    
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 17vw;
+    line-height: 1;
+    color: #fff;
+}
+.time_wrapper small{
+    display: none;
+}
+.time_wrapper span{
+    transform: translateY(-1.5vw);
+}
+.button_wrappers{
+    margin: 20px;
+    display: inline-block;
+}
+button{
+    font-family:'GT Haptik Medium',sans-serif;
+    font-size: 16px;
+    width: 150px;
+    height: 52px;
+    border-radius: 26px;
+    border: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background: #E57CD8;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #564260;
+    color: #fff;
+}
+.button_wrappers #reset{
+    background-color: #564260;
+}
+.button_wrappers #reset:hover{
+    background-color: #d6caaa;  
+}
+.countdown #setime{
+    height: 35px;
+    margin-left:2px ;
+    /* margin: 20px; */
+    background: #000;
+  
+}
+.countdown label{
+    font-size: 30px;
+}
+.countdown input{
+    height: 30px;
+    width:100px;
+    margin-left: 8px;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 0;
+}
+.countdown .set_time{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
